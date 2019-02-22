@@ -42,5 +42,8 @@ do
 
 done
 
+count=$(($count+1))
+namafile="password$count.txt"
+head /dev/urandom | tr -dc A-Za-z0-9 | head -c 12 > "$namafile" 
 
 
