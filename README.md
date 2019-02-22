@@ -66,13 +66,16 @@ Pada script enkripsi, pertama adalah mengambil waktu saat ini (jam nya saja), se
 
 file decrypt:
 
-![no4decrypt1](https://user-images.githubusercontent.com/47809366/53219292-ffb94300-3691-11e9-93da-de6d37b
-![no4decrypt2](https://user-images.githubusercontent.com/47809366/53219300-0778e780-3692-11e9-9b3e-d2c
+
 ![no4decrypt3](https://user-images.githubusercontent.com/47809366/53219296-03e56080-3692-11e9-97c8-a2699639e465.png)
 
 Pada file descrypt, ambil waktu (jam) untuk menamai file, ambil batas bawah dan batas atas lalu ubah menjadi char, lalu simpan hasil decrypt pada file .txt
 
 Crontab:
+
+![no4decrypt1](https://user-images.githubusercontent.com/47809366/53219607-32177000-3693-11e9-8ce0-880ae240904f.png)
+
+![no4decrypt2](https://user-images.githubusercontent.com/47809366/53219611-35126080-3693-11e9-9abd-e9c59d216008.png)
 
 ![crontab4](https://user-images.githubusercontent.com/47809366/53219493-b7e6eb80-3692-11e9-8a89-b5bea04409fa.PNG)
 
