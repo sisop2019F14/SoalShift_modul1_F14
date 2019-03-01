@@ -15,7 +15,7 @@ For i in *.jpg; do ….. done adalah script pengulangan untuk mencari file berti
 Newfile = “$name$i” base65 –d $i | xxd –r > $newfile adalah script untuk mendecode file yang telah dienkripsi, lalu file yang telah didecode diberi nama “extracted”-namafile.jpg.
 lalu atur crontab:
 
-![soal1](https://user-images.githubusercontent.com/47809366/53218877-6c334280-3690-11e9-84cc-e7387c933dfa.PNG)
+![crontab1](https://user-images.githubusercontent.com/47809366/53636677-9ae28780-3c53-11e9-8a42-437913fefdd7.PNG)
 
 Hasil:
 ![whatsapp image 2019-02-20 at 13 18 34](https://user-images.githubusercontent.com/47809366/53218731-db5c6700-368f-11e9-9566-3f6a9f52dedc.jpeg)
@@ -38,15 +38,15 @@ Karena soal keduaB adalah mencari product line yang memiliki penjualan terbanyak
 
 SOAL 2c
 
-![whatsapp image 2019-02-20 at 13 38 01 1](https://user-images.githubusercontent.com/47809366/53219071-2f1b8000-3691-11e9-9e8f-282ae4f7f0b6.jpeg)
+![no2cpart1](https://user-images.githubusercontent.com/47809366/53636552-34f60000-3c53-11e9-81c2-db3ddae88d00.png)
 
-![whatsapp image 2019-02-20 at 13 38 02](https://user-images.githubusercontent.com/47809366/53219082-33479d80-3691-11e9-9fbb-8e5dc610a1a1.jpeg)
+![no2cpart2](https://user-images.githubusercontent.com/47809366/53636565-3e7f6800-3c53-11e9-8bc2-75c165c8a819.png)
 
-![whatsapp image 2019-02-20 at 13 38 02 1](https://user-images.githubusercontent.com/47809366/53219077-317dda00-3691-11e9-8274-a35d4f1eee0a.jpeg)
+![no2cpart3](https://user-images.githubusercontent.com/47809366/53636568-40492b80-3c53-11e9-9f5e-58353ecc59ed.png)
 
-Karena soal keduaC adalah mencari product yang memiliki penjualan terbanyak dari produk line dan negara yang memiliki penjualan terbanyak(united states) maka, diberikan syarat dalam melakukan looping dimana kata kunci yang dicari berada pada kolom 6(product line)  dengan kolom 4 bernilai string Personal accessories, camping equipment, dan outdoor protection. Lalu inisiasikan variable p1, p2 dan p3 dengan nilai 0 dan lalukan looping untuk mencari nilai max dari masing-masing product dalam product line personal accessories, nilai max dimasukan ke dalam idx1, idx2 dan idx3 lalu di print. inisiasikan variable p4, p5 dan p6 dengan nilai 0 dan lalukan looping untuk mencari nilai max dari masing-masing product dalam product line camping equipment, nilai max dimasukan ke dalam idx4, idx5 dan idx6 lalu di print. inisiasikan variable p7, p8 dan p9 dengan nilai 0 dan lalukan looping untuk mencari nilai max dari masing-masing product dalam product line outdoor protection, nilai max dimasukan ke dalam idx7, idx8 dan idx9 lalu di print.
+Karena soal keduaC adalah mencari product yang memiliki penjualan terbanyak dari produk line dan negara yang memiliki penjualan terbanyak(united states) maka, diberikan syarat dimana kata kunci yang dicari berada pada kolom 6(product line)  dengan kolom 4 bernilai string Personal accessories, camping equipment, dan outdoor protection (dari soal nomer 2b) 
 
-![whatsapp image 2019-02-20 at 13 37 58](https://user-images.githubusercontent.com/47809366/53219194-ad782200-3691-11e9-85d1-3de63ee9af2f.jpeg)
+![hasil](https://user-images.githubusercontent.com/47809366/53636626-74bce780-3c53-11e9-85ed-8e1dd41db1b1.png)
 
 SOAL 3
 
